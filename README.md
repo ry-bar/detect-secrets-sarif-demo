@@ -6,7 +6,7 @@ This repository is a tiny Python codebase that intentionally contains fake secre
 2. Converts the findings to SARIF using [`ry-bar/detect-secrets-sarif-action`](https://github.com/ry-bar/detect-secrets-sarif-action).
 3. Uploads the SARIF file to GitHub Code Scanning via [`github/codeql-action/upload-sarif`](https://github.com/github/codeql-action).
 
-## Important disclaimer
+## Important disclaimer!
 
 - **All secrets in this repository are 100% fake and for educational testing only.**
 - Do not copy any of these patterns into real projects.
