@@ -7,7 +7,8 @@ from pathlib import Path
 # Pretend this is a CLI entry point that needs API keys to bootstrap services.
 STRIPE_API_KEY = "stripe_demo_secret_FAKEDEMO123456"  # FAKE SECRET: demo only for detect-secrets
 SLACK_BOT_TOKEN = "slack_demo_bot_token_FAKEDEMO-123456"  # FAKE SECRET: demo only for detect-secrets
-GITHUB_PERSONAL_TOKEN = "github_pat_demo_fake_token_value_123456789"  # FAKE SECRET: demo only for detect-secrets
+GITHUB_PERSONAL_TOKEN = "ghp_FAKEDEMO1234567890abcdefABCDEF12345678"  # FAKE SECRET: demo only for detect-secrets
+OPENAI_API_KEY = "sk-test_FAKE_OPENAI_KEY_1234567890abcdef"  # FAKE SECRET: demo only for detect-secrets
 
 
 def bootstrap_services():

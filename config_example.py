@@ -8,17 +8,17 @@ DATABASE_CONFIG = {
 }
 
 AWS_CREDENTIALS = {
-    "aws_access_key_id": "FAKEAWSACCESSKEY12345678",  # FAKE SECRET: demo only for detect-secrets
+    "aws_access_key_id": "AKIAFAKEACCESSKEY1234",  # FAKE SECRET: demo only for detect-secrets
     "aws_secret_access_key": "fakeAWSsecretKeyValue987654321",  # FAKE SECRET: demo only for detect-secrets
 }
 
 SERVICE_ACCOUNTS = {
     "jira": {
-        "username": "jira_demo_admin",  # FAKE SECRET: demo only for detect-secrets
+        "api_token": "jira_demo_api_token_FAKE1234567890",  # FAKE SECRET: demo only for detect-secrets
         "password": "JiraAdminPass!@#2024",  # FAKE SECRET: demo only for detect-secrets
     },
     "github_app": {
-        "client_id": "Iv1.fakeGithubClientId",  # FAKE SECRET: demo only for detect-secrets
+        "client_id": "Iv1.abcdef1234567890",  # FAKE SECRET: demo only for detect-secrets
         "client_secret": "fakegithubclientsecret987654321",  # FAKE SECRET: demo only for detect-secrets
     },
 }

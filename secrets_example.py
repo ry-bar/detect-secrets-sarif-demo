@@ -13,16 +13,16 @@ oz7q9k16jLw9UlScwkvdQ1xwDA3lGlEPTP2r0y7Vv6wYr2m3eVZJFAKEKEYLINE
 
 # Fake JWT token representing a session cookie.
 JWT_SESSION_TOKEN = (
-    "eyFake.JwtPayload.SignaturePartThatLooksRealButIsNot"  # FAKE SECRET: demo only for detect-secrets
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"  # FAKE SECRET: demo only for detect-secrets
 )
 
 # Fake bearer token used for an internal service.
-INTERNAL_BEARER_TOKEN = "Bearer faketoken1234567890ABCDEFGHIJKLMNOP"  # FAKE SECRET: demo only for detect-secrets
+INTERNAL_BEARER_TOKEN = "Bearer 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"  # FAKE SECRET: demo only for detect-secrets
 
 # Pretend connection string for Azure storage.
 AZURE_STORAGE_CONNECTION = (
     "DefaultEndpointsProtocol=https;AccountName=fakedemo;"
-    "AccountKey=FAKEAzuReAccountKeyValue1234567890==;EndpointSuffix=core.windows.net"
+    "AccountKey=VGhpcy1pcz1hLXNhbXBsZS1iYXNlNjQtZmFrZS1sb25nLXN0cmluZy1mb3ItZGVtbzEuZXhhbXBsZQ==;EndpointSuffix=core.windows.net"
 )  # FAKE SECRET: demo only for detect-secrets
 
 

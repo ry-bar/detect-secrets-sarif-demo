@@ -27,7 +27,7 @@ Each fake secret is deliberately chosen to look like a high-signal pattern for s
 1. **`app.py` – Stripe API key**: Mimics an `sk_` style Stripe secret key.
 2. **`app.py` – Slack bot token**: Looks like an `xoxb-` bot token to demonstrate chat tokens.
 3. **`app.py` – GitHub personal access token**: Uses a `ghp_`-style prefix so PAT detectors fire.
-4. **`config_example.py` – Primary database URL**: Hard-coded `postgres://user:password@host` connection string.
+4. **`config_example.py` – Primary database URL**: Hard-coded `postgres://user:[REDACTED]@host` connection string.
 5. **`config_example.py` – Read-only database URL**: Second DB string to show multiple credentials in one file.
 6. **`config_example.py` – AWS access key ID**: Uppercase alphanumeric value styled like a real key ID.
 7. **`config_example.py` – AWS secret access key**: Companion secret to mirror the typical pair.
