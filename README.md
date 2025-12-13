@@ -41,3 +41,16 @@ Each fake secret is deliberately chosen to look like a high-signal pattern for s
 15. **`secrets_example.py` – JWT session token**: Three-part dot-separated token showing JWT structure.
 16. **`secrets_example.py` – Bearer token**: `Bearer ...` string to mimic service-to-service tokens.
 17. **`secrets_example.py` – Azure storage connection string**: Includes an `AccountKey` field with base64-ish value.
+
+## Workflow evidence
+
+1. Workflow execution
+<img width="1331" height="569" alt="image" src="https://github.com/user-attachments/assets/eadeb1a3-5298-476b-bbc2-1bc7662c0a6b" />
+2. Code Scanning alerts
+<img width="969" height="533" alt="image" src="https://github.com/user-attachments/assets/9201c6a6-f8de-4c53-8a5b-aeb0c6077145" />
+3. Alert details
+<img width="919" height="486" alt="image" src="https://github.com/user-attachments/assets/0d851703-8e7e-459f-a3ba-1f2e80eb213e" />
+
+   
+5. 
+6. 
