@@ -50,7 +50,7 @@ Each fake secret is deliberately chosen to look like a high-signal pattern for s
 2. Code Scanning alerts
 <img width="969" height="533" alt="image" src="https://github.com/user-attachments/assets/9201c6a6-f8de-4c53-8a5b-aeb0c6077145" />
 
-4. Alert details
+3. Alert details
 <img width="919" height="486" alt="image" src="https://github.com/user-attachments/assets/0d851703-8e7e-459f-a3ba-1f2e80eb213e" />
 
 
