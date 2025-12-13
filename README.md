@@ -22,7 +22,7 @@ This repository is a tiny Python codebase that intentionally contains **17 fake 
 
 ## Seeded fake secrets
 
-Each fake secret is deliberately chosen to look like a high-signal pattern for scanners:
+Each fake secret is deliberately chosen to look like a high-signal pattern for scanners: 
 
 1. **`app.py` – Stripe API key**: Mimics an `sk_` style Stripe secret key.
 2. **`app.py` – Slack bot token**: Looks like an `xoxb-` bot token to demonstrate chat tokens.
